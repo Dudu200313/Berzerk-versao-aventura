@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#20251a">
+  <title>BERZEK — Vista sua próxima aventura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shipping-bar">
+    <span class="mountain-mark">⌃</span>
+    FRETE GRÁTIS EM COMPRAS ACIMA DE R$ 299,90!
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Adventure - página inicial">
+      <svg viewBox="0 0 64 44" role="img" aria-label="Montanhas">
+        <path d="M3 36 20 12l8 11L39 5l22 31H3Z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/>
+        <path d="m14 21 6 2 5-2M32 18l7-4 5 7 5 2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span>BERZEK</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#novidades">Novidades</a>
+      <a href="#produtos">Oversized</a>
+      <a href="#produtos">Camisetas</a>
+      <a href="#produtos">Moletom</a>
+      <a href="#produtos">Acessórios</a>
+      <a href="#outlet">Outlet</a>
+    </nav>
+    <div class="header-actions">
+      <button aria-label="Pesquisar">⌕</button>
+      <button aria-label="Favoritos">♡<small>0</small></button>
+      <button aria-label="Sacola">▱<small>0</small></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="novidades">
+      <div class="hero-shade"></div>
+      <div class="topo-lines"></div>
+      <div class="hero-side-copy left-copy">EXPLORE<br>SEU PRÓPRIO<br> LIMITE <span>↗</span></div>
+      <div class="compass" aria-hidden="true">
+        <span class="north">N</span><span class="east">E</span><span class="south">S</span><span class="west">W</span>
+        <div class="compass-needle"></div>
+      </div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> COLEÇÃO EXPLORER 2026 <span></span></div>
+        <h1>KITS <em>AVENTURA</em></h1>
+        <p class="hero-subtitle">Vista a jornada. Viva a experiência.</p>
+        <div class="bundle-options">
+          <article class="bundle-card">
+            <div class="bundle-label">LEVE 3 <span class="dots">●●●</span></div>
+            <div class="bundle-price">R$199,90</div>
+            <div class="old-price">R$269,70</div>
+            <div class="per-item">R$66,63/cada</div>
+            <div class="saving">◇ Economize R$69,80</div>
+          </article>
+          <article class="bundle-card featured">
+            <div class="best-choice">♛ MELHOR OPÇÃO</div>
+            <div class="bundle-label">LEVE 4 <span class="dots">●●●●</span></div>
+            <div class="bundle-price">R$259,90</div>
+            <div class="old-price">R$359,60</div>
+            <div class="per-item">R$64,98/cada</div>
+            <div class="saving">◇ Economize R$99,70</div>
+          </article>
+        </div>
+        <a class="cashback" href="#produtos">◇ &nbsp; 10% de cashback na próxima compra</a>
+        <p class="fine-print">Desconto aplicado automaticamente no carrinho</p>
+        <a class="hero-cta" href="#produtos">EXPLORAR PRODUTOS <span>↘</span></a>
+      </div>
+      <div class="hero-side-copy right-copy">MAIS AVENTURAS<br>MENOS ROTINA</div>
+      <div class="hero-bottom"><span>01 / 04</span><span class="line"></span><span>ENCONTRE SEU CAMINHO</span></div>
+    </section>
+
+    <section class="collection-strip">
+      <span>FEITO PARA QUEM VAI ALÉM</span>
+      <span class="strip-star">✳</span>
+      <span>DESAFIE O CAMINHO</span>
+      <span class="strip-star">✳</span>
+      <span>VISTA SUA AVENTURA</span>
+    </section>
+
+    <section class="catalog" id="produtos">
+      <div class="catalog-heading">
+        <div>
+          <p class="section-kicker">EQUIPAMENTO URBANO</p>
+          <h2>ESCOLHA SUA <em>PRÓXIMA JORNADA</em></h2>
+        </div>
+        <p class="catalog-note">Peças para explorar dentro e fora da cidade.</p>
+      </div>
+      <div class="filters">
+        <div class="filter-group">
+          <label>Tipo de peça <select aria-label="Tipo de peça"><option>Todos</option><option>Camisetas</option><option>Moletons</option></select></label>
+          <label>Tamanho <select aria-label="Tamanho"><option>Todos</option><option>P</option><option>M</option><option>G</option><option>GG</option></select></label>
+          <label>Cor <select aria-label="Cor"><option>Todas</option><option>Preto</option><option>Branco</option><option>Verde</option></select></label>
+          <label>Preço <select aria-label="Preço"><option>Todos</option><option>Até R$ 100</option><option>R$ 100–200</option></select></label>
+          <label>Disponibilidade <select aria-label="Disponibilidade"><option>Todos</option><option>Em estoque</option></select></label>
+        </div>
+        <div class="sort-tools"><span>75 itens</span><label>Classificar <select aria-label="Classificar"><option>Em destaque</option><option>Menor preço</option><option>Maior preço</option></select></label></div>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image image-one" href="#" aria-label="Ver camiseta Leg Day">
+            <span class="discount">40% OFF</span><span class="product-badge">BEST-SELLER</span>
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85" alt="Camiseta preta em fundo neutro">
+            <span class="quick-add">＋ ADICIONAR</span>
+          </a>
+          <div class="product-info"><div class="product-type">CAMISETA OVERSIZED</div><h3>Oversized — Leg Day</h3><div class="price-line"><del>R$ 149,90</del><strong>R$ 89,90</strong></div><p class="installments">Até 12x de R$ 9,73</p><div class="rating">★★★★★ <span>(1.618 avaliações)</span></div><div class="benefits"><span>↗ Frete grátis</span><span>10% cashback</span></div></div>
+        </article>
+        <article class="product-card">
+          <a class="product-image image-two" href="#" aria-label="Ver camiseta Berserk">
+            <span class="discount">31% OFF</span>
+            <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85" alt="Camiseta escura em fundo neutro">
+            <span class="quick-add">＋ ADICIONAR</span>
+          </a>
+          <div class="product-info"><div class="product-type">CAMISETA OVERSIZED</div><h3>Oversized — Berserk</h3><div class="price-line"><del>R$ 129,90</del><strong>R$ 89,90</strong></div><p class="installments">Até 12x de R$ 9,73</p><div class="rating">★★★★★ <span>(427 avaliações)</span></div><div class="benefits"><span>↗ Frete grátis</span><span>10% cashback</span></div></div>
+        </article>
+        <article class="product-card">
+          <a class="product-image image-three" href="#" aria-label="Ver camiseta Myth">
+            <span class="discount">40% OFF</span>
+            <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=85" alt="Camiseta preta estampada">
+            <span class="quick-add">＋ ADICIONAR</span>
+          </a>
+          <div class="product-info"><div class="product-type">CAMISETA OVERSIZED</div><h3>Oversized — Myth</h3><div class="price-line"><del>R$ 149,90</del><strong>R$ 89,90</strong></div><p class="installments">Até 12x de R$ 9,73</p><div class="rating">★★★★★ <span>(9.873 avaliações)</span></div><div class="benefits"><span>↗ Frete grátis</span><span>10% cashback</span></div></div>
+        </article>
+        <article class="product-card" id="outlet">
+          <a class="product-image image-four" href="#" aria-label="Ver camiseta Olympia">
+            <span class="discount">40% OFF</span>
+            <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=85" alt="Camiseta branca em fundo neutro">
+            <span class="quick-add">＋ ADICIONAR</span>
+          </a>
+          <div class="product-info"><div class="product-type">CAMISETA OVERSIZED</div><h3>Oversized — Olympia</h3><div class="price-line"><del>R$ 149,90</del><strong>R$ 89,90</strong></div><p class="installments">Até 12x de R$ 9,73</p><div class="rating">★★★★★ <span>Novidade</span></div><div class="benefits"><span>↗ Frete grátis</span><span>10% cashback</span></div></div>
+        </article>
+      </div>
+      <div class="load-more"><button>CARREGAR MAIS PRODUTOS <span>＋</span></button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span>▲ ADVENTURE</span></a>
+    <p>O caminho é seu. A aventura também.</p>
+    <span>© 2026 ADVENTURE — VISTA SUA JORNADA.</span>
+  </footer>
+  <div class="help-tab"><span>☷</span> AJUDA</div>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+    menuButton.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(open));
+    });
+  </script>
+</body>
+</html>
